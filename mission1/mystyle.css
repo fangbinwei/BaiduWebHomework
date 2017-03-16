@@ -1,0 +1,109 @@
+body {
+	background-color: #eaf7fd;
+	font-family: Verdana,"宋体",sans-serif;
+}
+
+.bloga{
+	background-image: url(image/bloga.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	width: 100%;
+}
+
+.blogb {
+	background-image: url(image/blog.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width:100%;
+}
+
+.blog-head {
+	height: 300px;
+	position: relative;
+}
+
+.blog-title{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+
+#blog-name {
+	font-family: "微软雅黑","黑体";
+	font-size: 24px;
+	font-weight: 500;
+	color: #376043;
+}
+
+.nav{
+	position: absolute;
+	top: 55%;
+	left: 25%;
+}
+nav a {
+	text-decoration: none;
+	color: #376043;
+}
+.blog-body {
+	position: relative;
+	color: #464646;
+}
+.article-category{
+	background: #df2d4f;
+	padding: 0.3em 1em;
+	margin: 0 1em;
+	color: #fff;
+	font-size: 80%;
+	text-decoration: none;
+}
+
+.article-title {
+	color: #41684d;
+}
+
+.pub-time {
+	color: #99ad9f;
+	font-size: 14px;
+}
+.articles {
+	margin-right: 15%;
+	margin-left: 25%;
+}
+.article {
+	background-color: #fff;
+	padding: 20px 20px 40px;
+	margin-bottom: 10px;
+	box-shadow:5px 5px 15px #888;
+
+}
+.comments {
+	margin-top: 50px;
+}
+.comment-head {
+	background-color: #eaf7fd;
+}
+form li {
+	clear: both;
+	list-style-type: none;
+}
+form li:nth-last-child(1) {
+    text-align: center;
+}
+form label {
+    display: block;
+    float: left;
+    margin: 0 10px 20px 0;
+    text-align: right;
+    width: 100px;
+}
+form input {
+    border-radius: 5px;
+}
+.submit {
+	width: 120px;
+}
+.blog-footer {
+	position:relative;
+	padding-top: 65px;
+	text-align: center;
+}
