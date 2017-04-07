@@ -47,7 +47,7 @@ header:after {
 	width: 1.8em;
 	fill: #c33;
 	position: relative;
-	top: 4px;
+	top: 4px; 
 }
 
 .header-title h1 {
@@ -82,7 +82,7 @@ nav ul li a {
 	font-weight: 700;
 }
 nav ul li:last-child a {
-	padding: 0 0 20px 20px;
+	padding: 0 0 0 20px;
 	margin-right: -5px;
 	color: #c33;
 }
