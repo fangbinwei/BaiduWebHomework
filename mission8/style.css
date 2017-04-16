@@ -1,3 +1,6 @@
+body {
+	margin: 0px;
+}
 .row>div {
 	height: 50px;
 	margin-top: 10px;
