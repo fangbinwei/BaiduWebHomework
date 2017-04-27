@@ -1,0 +1,21 @@
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+body {
+	background-color: #eaf7fd;
+}
+header {
+	background-color: rgba(234,247,253,0.5);
+}
+.header-image>img {
+	width: 100%;
+	height: auto;
+}
+main {
+	height: 1000px;
+	background-color: black;
+
+}
