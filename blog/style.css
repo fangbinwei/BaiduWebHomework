@@ -7,6 +7,15 @@
 body {
 	background-color: #eaf7fd;
 }
+.nav-link {
+  webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.nav-link:hover {
+	background-color: #ddd;
+}
 header {
 	background-color: rgba(234,247,253,0.5);
 }
@@ -14,8 +23,45 @@ header {
 	width: 100%;
 	height: auto;
 }
-main {
-	height: 1000px;
-	background-color: black;
+.header-image {
+	margin-bottom: 3rem;
+}
+article {
+	overflow: hidden;
+	background-color: #fff;
+	padding: 1rem;
+	margin-bottom: 2rem;
+	box-shadow:5px 5px 15px #888;
 
+}
+.article-category{
+	background: #df2d4f;
+	padding: 0.3em 1em;
+	margin: 0 1em;
+	color: #fff;
+	font-size: 0.8rem;
+	text-decoration: none;
+}
+
+.article-title {
+	color: #41684d;
+}
+
+.pub-time {
+	color: #99ad9f;
+	font-size: 1rem;
+}
+.article-content {
+	padding-top: 2rem;
+	text-indent: 2em;
+}
+/* -------footer----- */
+.footer-information {
+	text-align: center;
+	padding: 2rem 0;
+	font-size: 85%;
+	margin-top: 4rem;
+	background-image: url(image/bloga.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
